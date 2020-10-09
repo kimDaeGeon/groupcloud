@@ -1,0 +1,178 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#nav-bar{
+    background-color: #333333;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#nav-bar > a{
+    text-decoration: none;
+    display: block;
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    transition-property: background-color, padding-left, padding-right;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+#nav-bar > a:hover{
+    background-color: #111111;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+    
+    background-color: whitesmoke;
+    width: 600px;
+    height: 800px;
+
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.frame > .task{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+
+    height: 80px;
+    width: 500px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: white;
+    box-shadow: 3px 3px 3px grey;
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.frame > .task:hover{
+    box-shadow: 5px 5px 5px  grey;
+}
+
+.frame > h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.task > img{
+    width: 40px;
+    height: 40px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.task > h4{
+    margin: auto;
+    margin-left: 30px;
+
+    font-size: 35px;
+    font-weight: bold;
+}
+.task .done{
+    font-weight: bold;
+    color: white;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    background-color: rgb(47, 255, 92);
+    border: 2px solid  rgb(47, 255, 92);
+    border-radius: 10px 10px 10px 10px;
+}
+.task .undo{
+    font-weight: bold;
+    color: white;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    background-color: rgb(228, 66, 51);
+    border: 2px solid  rgb(228, 66, 51);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.progress-bar{
+    display: block;
+    width: 500px;
+    height: 25px;
+
+    background-color: rgb(197, 197, 197);
+    border-radius: 15px 15px 15px 15px; 
+    
+    margin: auto;
+    margin-top: 10px;
+    border: 0;
+    padding: 0;
+}
+
+#bar{
+
+    width: 200px;
+    height: 25px;
+    background-color: rgb(47, 255, 92);
+    border-radius: 15px 15px 15px 15px; 
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+}
+
+.stat > h5{
+    font-size: medium;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+#chartContainer{
+    height: 500px;
+    width: 500px;
+    
+    margin: auto;
+    margin-top: 40px;
+    
+    border-radius: 10px 10px 10px 10px;
+}

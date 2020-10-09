@@ -1,0 +1,130 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#nav-bar{
+    background-color: #333333;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#nav-bar > a{
+    text-decoration: none;
+    display: block;
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    transition-property: background-color, padding-left, padding-right;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+#nav-bar > a:hover{
+    background-color: #111111;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+    
+    background-color: whitesmoke;
+    width: 900px;
+    height: 800px;
+
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.frame > .task{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+
+    height: 80px;
+    width: 500px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: white;
+    box-shadow: 3px 3px 3px grey;
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.frame > .task:hover{
+    box-shadow: 5px 5px 5px  grey;
+}
+
+.frame > h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/***********************************************************************/
+
+.talks{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.talks .history{
+    background-color: gainsboro;
+    border-radius: 10px 10px 10px 10px;
+    width: 900px - 80px;
+    height: 650px;
+
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#tosend{
+    width: 600px;  
+    height: 40px;  
+}
+#send{
+    height: 45px;
+    width: 80px;
+}
+
+.talks .message{
+    margin-left: 50px;
+}
+
+.frame .log {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}   
