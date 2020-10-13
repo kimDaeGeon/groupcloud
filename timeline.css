@@ -43,14 +43,28 @@ body{
     flex-direction: row;
     justify-content: center;
 }
-.frame{
+.left-frame {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     border-radius: 10px 10px 10px 10px;
     
     background-color: whitesmoke;
-    width: 600px;
+    width: 1000px;
+    height: 800px;
+
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.right-frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+    
+    background-color: whitesmoke;
+    width: 400px;
     height: 800px;
 
     margin-top: 20px;
@@ -58,6 +72,24 @@ body{
     margin-right: 10px;
 }
 
+
+
 .calender{
     margin: 0 auto;
+    margin-top: 30px;
+
+    border: 1px solid black;
+
+    width: 900px;
+    height: 500px
+}
+
+.calender > th{
+    border: 1px solid black;
+}
+.calender > tr {
+    border: 1px solid black;
+}
+.calender > tr > td{
+    border: 1px solid black;
 }
