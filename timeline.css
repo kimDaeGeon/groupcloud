@@ -105,10 +105,6 @@ body{
     height: 120px;
 }
 
-.day .col{
-
-}
-
 .day:nth-child(1){
     background-color: rgba(255, 0, 0, 0.212);
 }
@@ -117,4 +113,13 @@ body{
 }
 .day:nth-child(7){
     background-color: rgba(0,0,255,0.1212);
+}
+
+.plan{
+    display: flex;
+    flex-direction: row;
+}
+.color{
+    display: block;
+    
 }
