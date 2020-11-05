@@ -1,7 +1,7 @@
 function SetCalender(startDate, startDay){
     var datetime = new Date();
 
-    //alert(datetime)
+    alert(datetime);
 
     // 캘린더에 날짜 맞춰넣기
     for(var week = 1 ; week <= 4 ; week++){
